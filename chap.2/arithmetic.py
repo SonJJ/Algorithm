@@ -8,35 +8,44 @@ a,b = input().split()
 
 a = int(a)
 b = int(b)
-if a>0:
-    if b<10001:
-        def plus(x, y):
-            result = x+y
-            return result
 
-        def minus(x, y):
-            result = x - y
-            return result
 
-        def mul(x, y):
-            result = x * y
-            return result
+def plus(x, y):
+    result = x + y
+    return result
 
-        def div(x, y):
-            result = x / y
-            return result
-        def rem(x,y):
-            result = x % y
-            return result
 
-        numP = plus(a,b)
-        numM = minus(a,b)
-        numMul = mul(a,b)
-        numDiv = int(div(a,b)) # 결과값이 소수점이 생략이 였다.
-        numR = rem(a,b)
+def minus(x, y):
+    result = x - y
+    return result
 
-        print(numP)
-        print(numM)
-        print(numMul)
-        print(numDiv)
-        print(numR)
+
+def mul(x, y):
+    result = x * y
+    return result
+
+
+def div(x, y):
+    result = x / y
+    return result
+
+
+def rem(x, y):
+    result = x % y
+    return result
+def output():
+    if a>0:
+        if b<10001:
+            numP = plus(a,b)
+            numM = minus(a,b)
+            numMul = mul(a,b)
+            numDiv = int(div(a,b)) # 결과값이 소수점이 생략이 였다.
+            numR = rem(a,b)
+
+            print(numP)
+            print(numM)
+            print(numMul)
+            print(numDiv)
+            print(numR)
+
+output()
