@@ -36,8 +36,8 @@ def rem(x):
         return  result
 
 def output():
-    result = rem(n)
-    print(result)
+    index = rem(n)
+    print(index)
 
 output()
 
