@@ -13,6 +13,7 @@ n = int(input())
 def rem(x):
     if 3 <= x <= 5000:
         five = 0
+        temp = 1    #초기화를 잘하자
         resultB = x
         while (five*5) <= x: #5kg 갯수*5가 설탕 무게를 넘지못함
             sugar = x
@@ -33,7 +34,8 @@ def rem(x):
             result = resultB
         else:
             result = -1
-        return  result
+
+    return  result
 
 def output():
     index = rem(n)
