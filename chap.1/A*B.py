@@ -17,3 +17,4 @@ if a>0:
     if b<11:
         result = multi(a,b)
         print(result)
+
