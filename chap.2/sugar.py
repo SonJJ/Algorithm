@@ -19,7 +19,7 @@ def rem(x):
             sugar = x
             sugar = sugar-(five*5)
 
-            three = int(sugar/3) #3kg 갯수
+            three = sugar//3 #3kg 갯수
             div = sugar%3  # 나머지
 
             resultA = five + three
